@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    @roster.each{|key, value| @roster[key] = value.sort}
+    @roster.each{|k, v| @roster[k] = v.sort}
   end
 end
